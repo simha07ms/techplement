@@ -1,0 +1,38 @@
+
+Techplement
+
+This project shows how to deploy MySQL and WordPress on AWS EC2 instances.
+
+Overview
+
+We will set up a WordPress website backed by a MySQL database, hosted on Amazon EC2 instances.
+
+Technologies Used
+	•	AWS EC2: To host the MySQL database and WordPress website.
+	•	MySQL: For the database.
+	•	WordPress: For the website.
+	•	Apache: As the web server.
+	•	PHP: For running WordPress.
+	•	Linux: Operating system for the servers.
+
+Steps to Deploy
+	1.	Create EC2 Instances:
+	•	One for the MySQL database.
+	•	One for the WordPress website.
+	2.	Set Up Security Groups:
+	•	Allow HTTP and SSH for the WordPress server.
+	•	Allow MySQL access for the WordPress server to communicate with the database.
+	3.	Install MySQL:
+	•	Connect to the MySQL server.
+	•	Install MySQL and set it up to allow connections from the WordPress server.
+	4.	Install WordPress:
+	•	Connect to the WordPress server.
+	•	Install Apache, PHP, and WordPress.
+	•	Connect WordPress to the MySQL database.
+	5.	Open in Browser:
+	•	Access the WordPress website using the public IP address of the WordPress server.
+
+Project Structure
+	•	scripts/: Scripts to automate the setup.
+	•	configs/: Configuration files for MySQL and WordPress.
+	•	README.md: This file, explaining the project.
